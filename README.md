@@ -28,6 +28,7 @@ http://localhost:8080/api/message
 }
 
 GET response with a list no paggination jet (need upgrade in Spring Boot verion and Cassandra configuration)
+<br>
 http://localhost:8080/api/messages
 
 POST deleteing the magic_number == 101 from db response with list of deleted records
