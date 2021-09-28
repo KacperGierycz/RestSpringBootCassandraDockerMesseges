@@ -32,9 +32,11 @@ GET response with a list no paggination jet (need upgrade in Spring Boot verion 
 http://localhost:8080/api/messages
 
 POST deleteing the magic_number == 101 from db response with list of deleted records
+<br>
 http://localhost:8080/api/send
 
 GET to get a messages of a given email and delete them from db
+<br>
 http://localhost:8080/api/messages/anna.zajkowska@example.com
 
 All REST points from the task list are available the db is populated with 2 messages. After 5 min messages are deleted with the scheduler sometimes it's enabling after 10 min from startup. The CRUD is available thanks to extend RestRepository . I had to work on data with only basic commands course of my tutorial was a quick one;). The one part that I skip was pagination because of the same reason. REST is working like a charm. The best part of the development was the Message Entity this one had to change its name to Content due to unknown reasons and REST came to live. An experience like a whole was greate.
