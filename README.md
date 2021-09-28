@@ -13,6 +13,18 @@ How to run:
     Pull the images of Cassandra and Spring app
     Start images from docker desktop
     Start the single container cassandra (under it are two) which will auto-start cassandra container and Spring app
+   
+Below are links to DockerHub cassandra image, java image, and whole repo of both. I'm not sure that others can browse the main repo without login to DockerHub because of this there is a Readmy of this repo below links. I had a great time with this development wish you would too.
+
+linki:
+cassandra
+https://hub.docker.com/layers/169162285/kacpergierycz/messages-spring-cassandra-docker/cassandra/images/sha256-5daca55c5fdcf8b55c7d623e2346628de42609e2be7a1422cd9e3bedcb133222?context=repo
+
+java
+https://hub.docker.com/layers/169162593/kacpergierycz/messages-spring-cassandra-docker/java/images/sha256-8b06bab99c8156921c3eb742f9ed48057504aebffab5a766590ba4c2cd766421?context=repo
+
+together
+https://hub.docker.com/repository/docker/kacpergierycz/messages-spring-cassandra-docker
 
 The Spring is listening on port localhost:8080/
 
